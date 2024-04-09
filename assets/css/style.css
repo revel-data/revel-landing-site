@@ -184,14 +184,14 @@ h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #e39f39;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: #e39f39;
 }
 
 .navbar .dropdown ul {
@@ -411,11 +411,11 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #e39f39;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #e0ae64;
 }
 
 #hero .btn-watch-video {
@@ -640,11 +640,11 @@ section {
 
 #about .about-newsletter {
   padding: 50px 0;
-  background: #233167;
+  background: #cbd6e9;
   text-align: center;
   font-size: 15px;
-  color: #fff;
-  border-radius: 10px;
+  color: #999;
+  border-radius: 15px;
 }
 
 #about .about-newsletter h4 {
@@ -653,10 +653,10 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #fff;
+  color: #000;
 }
 
-#about .about-newsletter form {
+#about .about-newsletter .newsletter-input {
   margin-top: 30px;
   background: #fff;
   padding: 6px 10px;
@@ -666,13 +666,13 @@ section {
   text-align: left;
 }
 
-#about .about-newsletter form input[type=email] {
+#about .about-newsletter .newsletter-input input {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#about .about-newsletter form input[type=submit] {
+#about .about-newsletter .newsletter-input button {
   position: absolute;
   top: 0;
   right: 0;
@@ -681,7 +681,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #e4ac59;
+  background: #e39f39;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -689,7 +689,7 @@ section {
 }
 
 #about .about-newsletter form input[type=submit]:hover {
-  background: #209dd8;
+  background: #e0ae64;
 }
 
 /*--------------------------------------------------------------
@@ -881,7 +881,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #4668a2;
+  background-color: #b7b4b4;
 }
 
 /*--------------------------------------------------------------

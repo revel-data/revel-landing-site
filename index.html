@@ -27,6 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="assets/js/submit.js"></script>
 </head>
 
 <body>
@@ -120,33 +121,36 @@
             <div class="row justify-content-center">
               <div class="col-lg-6">
                 <h4>Join the Waitlist!</h4>
-                <p>Revel is currently invite-only - Join the waitlist to be given access!</p>
-                <form action="" method="post">
-                  <input type="email" name="email"><input type="submit" value="Join Revel">
-                </form>
+                <p><em>Revel is currently invite-only - Join the waitlist to be given access!</em></p>
+                <div class="newsletter-input">
+                  <input type="email" name="email" id="email-form" placeholder="Enter your email">
+                  <button type="submit" onclick="submit()">Request Access</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <br/>
+        <br/>
 
         <div class="row content">
-          <div class="col-lg-6">
-            <p>
-              Welcome to Revel, the cutting-edge data platform that redefines personal data analytics, management, and transparency. With Revel, you have complete control and visibility over your personal data, ensuring that you decide how it's shared and for what purpose.
-            </p>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3>
+              Discover the Power of Your Data: Sign Up Now to Control Your Information and Earn Exciting Rewards!
+            </h3>
+            <br/>
             <ul>
               <li><i class="ri-check-double-line"></i> Understand the data companies have on you</li>
               <li><i class="ri-check-double-line"></i> Manage what you want to keep</li>
               <li><i class="ri-check-double-line"></i> Sell your data with full-control to earn rewards!</li>
             </ul>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
+          <div class="col-lg-6">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+              Welcome to Revel, the cutting-edge data platform that redefines personal data <strong>analytics</strong>, <strong>management</strong>, and <strong>monetisation</strong>. 
+              <br/>
+              <br/>
+              We empower users to take control of their data and monetise it through our platform. With Revel, users choose what they share about themselves and gain data dividends.            </p>
             <a href="#why-us" class="btn-learn-more">Learn More</a>
           </div>
         </div>
@@ -221,8 +225,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>Manage your Data</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Revel takes data from various sources and provides you with a comprehensive view of your data.
             </p>
 
             <div class="skills-content">
@@ -251,7 +254,7 @@
               <div class="progress">
                 <span class="skill">Revel <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" style="background-color:#e39f39" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
@@ -318,11 +321,11 @@
 
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>Join Revel!</h3>
+            <p>Sign up to revel to <strong>take control of your data</strong></p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#about">Call To Action</a>
+            <a class="cta-btn align-middle" href="#about">Join Revel</a>
           </div>
         </div>
 
@@ -450,7 +453,7 @@
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Meet the Revel team</p>
         </div>
 
         <div class="row">

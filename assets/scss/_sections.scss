@@ -322,6 +322,13 @@ section {
     transition: .9s;
     background-color: lighten($secondary, 10);
   }
+
+  .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: lighten($secondary, 10);
+  }
 }
 
 /*--------------------------------------------------------------
