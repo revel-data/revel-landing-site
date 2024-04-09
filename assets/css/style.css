@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444444;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -401,7 +401,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -949,7 +949,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1264,7 +1264,7 @@ section {
   font-size: 48px;
   color: #233167;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 25px;
 }
 
@@ -1319,7 +1319,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: 0.3s;
   border: 1px solid #47b2e4;
 }
@@ -1762,7 +1762,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #5e5e5e;
 }
 
