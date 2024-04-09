@@ -670,7 +670,7 @@ section {
 #about .about-newsletter .newsletter-input input {
   border: 0;
   padding: 4px 8px;
-  width: calc(100% - 100px);
+  width: calc(100% - 175px);
 }
 
 #about .about-newsletter .newsletter-input button {
