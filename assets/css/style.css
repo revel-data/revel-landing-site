@@ -545,7 +545,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #e4ac59;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -608,7 +608,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #47b2e4;
+  color: #e4ac59;
   line-height: 1;
 }
 
@@ -636,6 +636,60 @@ section {
   background: #47b2e4;
   color: #fff;
   text-decoration: none;
+}
+
+#about .about-newsletter {
+  padding: 50px 0;
+  background: #233167;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#about .about-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #fff;
+}
+
+#about .about-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+#about .about-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#about .about-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #e4ac59;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#about .about-newsletter form input[type=submit]:hover {
+  background: #209dd8;
 }
 
 /*--------------------------------------------------------------
