@@ -284,3 +284,38 @@ function submit(){
     }
   })
 }
+
+function submitNewsletter(){
+  let endpoint = "https://prod-27.uksouth.logic.azure.com:443/workflows/0a3ebf40ab064fb89b43ec5bc2125a42/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=YllBIJyshpbZcAUNi9OjK0MLdip2jTMIJoFJaWNZ8E0";
+
+  let email = document.getElementById("email-form").value;
+
+  if (!email || email.trim() === "") {
+    alert("Please enter your email address");
+    return;
+  }
+  
+  let emailRegex = /\S+@\S+\.\S+/;
+  if (!emailRegex.test(email)) {
+    alert("Please enter a valid email address");
+    return;
+  }
+
+  let data = {
+    "email": email
+  }
+
+  fetch(endpoint, {
+    method: "POST",
+    body: JSON.stringify(data),
+    headers: {
+      "Content-Type": "application/json"
+    }
+  }).then(response => {
+    if (response.ok) {
+      alert("Email submitted successfully");
+    } else {
+      alert("Error submitting email");
+    }
+  })
+}
