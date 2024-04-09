@@ -688,7 +688,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#about .about-newsletter form input[type=submit]:hover {
+#about .about-newsletter .newsletter-input button:hover {
   background: #e0ae64;
 }
 
@@ -1703,7 +1703,7 @@ section {
   color: #233167;
 }
 
-#footer .footer-newsletter form {
+#footer .footer-newsletter .newsletter-input {
   margin-top: 30px;
   background: #fff;
   padding: 6px 10px;
@@ -1713,13 +1713,13 @@ section {
   text-align: left;
 }
 
-#footer .footer-newsletter form input[type=email] {
+#footer .footer-newsletter .newsletter-input input {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type=submit] {
+#footer .footer-newsletter .newsletter-input button[type=submit] {
   position: absolute;
   top: 0;
   right: 0;
@@ -1735,7 +1735,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-newsletter form input[type=submit]:hover {
+#footer .footer-newsletter .newsletter-input button:hover {
   background: #209dd8;
 }
 
