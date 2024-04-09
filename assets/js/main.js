@@ -279,10 +279,7 @@ function submit(){
   }).then(response => {
     if (response.ok) {
       alert("Email submitted successfully");
-    } else if (response.status === 409) {
-      alert("Email already submitted");
-    }
-    else {
+    } else {
       alert("Error submitting email");
     }
   })
