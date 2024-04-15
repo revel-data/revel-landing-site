@@ -297,5 +297,5 @@ function submit(email, type){
 }
 
 function returnHome(){
-  window.location.href = "index";
+  window.location.href = "https://revel.so";
 } 
