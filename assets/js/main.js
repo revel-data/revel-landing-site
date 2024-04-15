@@ -289,7 +289,7 @@ function submit(email, type){
   }).then(response => {
     if (response.ok) {
       // Take user to submitted.html
-      window.location.href = "submitted.html";
+      window.location.href = "submitted";
     } else {
       alert("Error submitting email");
     }
@@ -297,5 +297,5 @@ function submit(email, type){
 }
 
 function returnHome(){
-  window.location.href = "index.html";
+  window.location.href = "index";
 } 
