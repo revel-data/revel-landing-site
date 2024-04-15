@@ -247,7 +247,6 @@
       mirror: false
     });
   });
-
 })()
 
 function submitEarlyAccess(){
@@ -289,9 +288,14 @@ function submit(email, type){
     }
   }).then(response => {
     if (response.ok) {
-      alert("Email submitted successfully");
+      // Take user to submitted.html
+      window.location.href = "submitted.html";
     } else {
       alert("Error submitting email");
     }
   })
 }
+
+function returnHome(){
+  window.location.href = "index.html";
+} 

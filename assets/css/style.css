@@ -693,6 +693,51 @@ section {
   background: #e0ae64;
 }
 
+#about .about-emailsubmit {
+  padding: 50px 0;
+  background: #d1f2dd;
+  text-align: center;
+  font-size: 15px;
+  color: #39483f;
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#about .about-emailsubmit h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #000;
+}
+
+#about .about-emailsubmit .about-emailsubmitinput {
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+}
+
+#about .about-emailsubmit .about-emailsubmitinput button {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  background: #233167;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#about .about-emailsubmit .about-emailsubmitinput button:hover {
+  background: #273675;
+}
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
