@@ -26,8 +26,8 @@
 .firework::before,
 .firework::after {
     --initialSize: 0.5vmin;
-    --finalSize: 45vmin;
-    --particleSize: 0.2vmin;
+    --finalSize: 90vmin;
+    --particleSize: 1vmin;
     --color1: rgb(255, 251, 0);
     --color2: rgb(255, 98, 0);
     --color3: rgb(0, 255, 30);
