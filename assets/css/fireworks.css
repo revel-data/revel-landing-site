@@ -38,7 +38,7 @@
     --x: -50%;
     --initialY: 100vmin;
     content: "";
-    animation: firework 2s 5;
+    animation: firework 2s 2;
     /*animation: firework 2s infinite;*/
     position: absolute;
     top: 50%;
