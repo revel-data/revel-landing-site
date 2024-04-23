@@ -48,8 +48,18 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-6">
-                <h4>Email Submitted!</h4>
-                <p><em>We will be in touch soon...</em></p>
+                <h4 id="email-header">Email Submitted!</h4>
+                <p id="email-text"><em>We will be in touch soon...</em></p>
+                <script>
+                  let email = localStorage.getItem('email');
+                  if (email != null) {
+                    document.getElementById('email-text').innerHTML = "<em>We will be in touch soon at <strong>" + email + "</strong>!</em>";
+                  }
+                  else{
+                    document.getElementById('email-header').innerHTML = "No Email Provided...";
+                    document.getElementById('email-text').innerHTML = "<em>Please return to the homescreen to try again</em>";
+                  }
+                </script>
                 <div class="about-emailsubmitinput">
                   <button type="submit" onclick="returnHome()">Return Home</button>
                 </div>

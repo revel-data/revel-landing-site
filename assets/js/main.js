@@ -289,6 +289,7 @@ function submit(email, type){
   }).then(response => {
     if (response.ok) {
       // Take user to submitted.html
+      window.localStorage.setItem("email", email);
       window.location.href = "submitted";
     } else {
       alert("Error submitting email");
