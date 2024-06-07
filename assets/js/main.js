@@ -262,7 +262,7 @@ function submitNewsletter(){
 }
 
 function submit(email, type){
-  let endpoint = "https://prod-27.uksouth.logic.azure.com:443/workflows/0a3ebf40ab064fb89b43ec5bc2125a42/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=YllBIJyshpbZcAUNi9OjK0MLdip2jTMIJoFJaWNZ8E0";
+  let endpoint = "https://prod-04.uksouth.logic.azure.com:443/workflows/2cf7158efc2b48388ad2b56a2a55018a/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=cHS4S3Ye7Uus_kvYfTptQJ2EPh_tF4vovA6xik6faDY";
 
   if (!email || email.trim() === "") {
     alert("Please enter your email address");
